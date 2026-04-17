@@ -1,0 +1,8 @@
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Optional: Jupyter autosave artifacts
+*.ipynb_checkpoints
+
+*.env
