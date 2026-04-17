@@ -1,0 +1,9 @@
+﻿Metric,Value
+Project Name,customer-service-assistance
+Deployment Name,abc-bank-clu-production
+Total Test Cases,12
+Overall Pass Rate (%),100.0
+Intent Pass Rate (%),100.0
+Entity Category Pass Rate (%),100.0
+Entity Text Pass Rate (%),100.0
+Average Top Intent Confidence,0.9865

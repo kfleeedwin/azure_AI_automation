@@ -1,0 +1,4 @@
+﻿Intent,Total Tests,Intent Pass Count,Overall Pass Count,Intent Pass Rate (%),Overall Pass Rate (%),Avg Confidence
+CheckBalance,4,4,4,100.0,100.0,0.9771
+LoanStatus,3,3,3,100.0,100.0,0.9901
+TransferFunds,5,5,5,100.0,100.0,0.9917

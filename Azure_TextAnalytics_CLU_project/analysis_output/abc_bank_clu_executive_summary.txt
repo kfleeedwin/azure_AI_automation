@@ -1,0 +1,11 @@
+Project: customer-service-assistance
+Deployment: abc-bank-clu-production
+Total test cases: 12
+Overall pass rate: 100.0%
+Intent accuracy pass rate: 100.0%
+Entity category pass rate: 100.0%
+Entity text pass rate: 100.0%
+Average top intent confidence: 0.9865
+Best-performing intent: TransferFunds (100.0% pass rate)
+Lowest-performing intent: CheckBalance (100.0% pass rate)
+No failed test cases were detected in the current evaluation set.

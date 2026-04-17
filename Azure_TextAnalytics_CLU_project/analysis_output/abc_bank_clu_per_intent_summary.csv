@@ -1,0 +1,4 @@
+﻿expected_intent,total_tests,intent_pass_count,overall_pass_count,avg_top_intent_score,intent_pass_rate_pct,overall_pass_rate_pct
+CheckBalance,4,4,4,0.9771,100.0,100.0
+LoanStatus,3,3,3,0.9901,100.0,100.0
+TransferFunds,5,5,5,0.9917,100.0,100.0

@@ -1,0 +1,2 @@
+﻿project_name,deployment_name,total_tests,overall_pass_count,overall_fail_count,overall_pass_rate_pct,intent_pass_rate_pct,entity_category_pass_rate_pct,entity_text_pass_rate_pct,average_top_intent_score
+customer-service-assistance,abc-bank-clu-production,12,12,0,100.0,100.0,100.0,100.0,0.9865

@@ -1,0 +1,13 @@
+﻿utterance,expected_intent,actual_top_intent,top_intent_score,intent_pass,expected_entity_categories,actual_entity_categories,entity_category_pass,expected_entity_texts,actual_entity_texts,entity_text_pass,overall_pass,failure_reason
+What’s my current balance in the savings account?,CheckBalance,CheckBalance,1.0,True,account_type,account_type,True,savings account,savings account,True,True,Passed
+How much do I have in my fixed deposit account?,CheckBalance,CheckBalance,1.0,True,account_type,account_type,True,fixed deposit account,fixed deposit account,True,True,Passed
+Can you tell me my current account balance?,CheckBalance,CheckBalance,0.9463396,True,,,True,,,True,True,Passed
+Transfer $5000 from my savings to fixed deposit account.,TransferFunds,TransferFunds,0.9587257,True,"amount, account_type","amount, account_type, account_type",True,"$5000, savings, fixed deposit account","$5000, savings, fixed deposit account",True,True,Passed
+Move $2000 to my current account from savings.,TransferFunds,TransferFunds,1.0,True,"amount, account_type","amount, account_type, account_type",True,"$2000, current account, savings","$2000, current account, savings",True,True,Passed
+Please transfer $500 to my loan account from savings.,TransferFunds,TransferFunds,1.0,True,"amount, account_type","amount, account_type",True,"$500, loan account, savings","$500, loan account from savings",True,True,Passed
+Move funds to savings.,TransferFunds,TransferFunds,1.0,True,account_type,account_type,True,savings,savings,True,True,Passed
+What’s the status of my loan application?,LoanStatus,LoanStatus,1.0,True,,,True,,,True,True,Passed
+Has my home loan been approved yet?,LoanStatus,LoanStatus,0.9703765,True,,,True,,,True,True,Passed
+How’s my car loan application going?,LoanStatus,LoanStatus,1.0,True,,,True,,,True,True,Passed
+Show me the balance in my loan account.,CheckBalance,CheckBalance,0.9620051,True,account_type,account_type,True,loan account,loan account,True,True,Passed
+Send $1000 from my savings to loan account.,TransferFunds,TransferFunds,1.0,True,"amount, account_type","amount, account_type, account_type",True,"$1000, savings, loan account","$1000, savings, loan account",True,True,Passed

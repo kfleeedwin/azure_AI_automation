@@ -1,0 +1,11 @@
+EXECUTIVE COMMENTARY
+The ABC Bank CLU model was evaluated on 12 test cases across three business intents: CheckBalance, TransferFunds, and LoanStatus. The model achieved an overall pass rate of 100.00% with an average top-intent confidence score of 0.9865. Intent classification performed at 100.00%, while entity category detection reached 100.00% and entity text extraction reached 100.00%. The strongest-performing intent was TransferFunds at 100.00% overall pass rate, while CheckBalance was the weakest at 100.00%. No failed cases were observed in the current validation set, indicating stable intent and entity behavior for the tested banking scenarios.
+
+FINDINGS COMMENTARY
+The current CLU model demonstrates strong readiness for controlled banking assistant scenarios, especially where user phrasing closely matches the training examples. Overall quality is strong enough for a lab or prototype deployment, with only limited corrective tuning required.
+
+RECOMMENDATIONS
+1. Expand utterance coverage for TransferFunds and any lower-performing intent using more paraphrases, shorter variants, and realistic user wording.
+2. Add more labeled examples for account_type and amount to improve entity span detection, especially for short account references such as 'savings' or 'loan account'.
+3. Introduce harder negative and edge-case utterances to test ambiguity, missing values, and multi-entity phrasing.
+4. Re-train and re-run the evaluation pack after every major update so that intent accuracy, entity detection, and confidence trends remain measurable.
